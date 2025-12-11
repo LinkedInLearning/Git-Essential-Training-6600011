@@ -1,33 +1,52 @@
-# Git Essential Training
-This is the repository for the LinkedIn Learning course Git Essential Training. The full course is available from [LinkedIn Learning][lil-course-url].
+# Git 基本講座
+LinkedInラーニングの「Git 基本講座」コース用のリポジトリです。このコースは [LinkedInラーニング][lil-course-url]で視聴できます。
 
 ![course-name-alt-text][lil-thumbnail-url] 
 
-_See the readme file in the main branch for updated instructions and information._
-## Instructions
-This repository has branches for each of the videos in the course. You can use the branch pop up menu in github to switch to a specific branch and take a look at the course at that stage, or you can add `/tree/BRANCH_NAME` to the URL to go to the branch you want to access.
+Gitはファイルの変更履歴を管理するためのバージョン管理システムです。2025年現在もっとも主流なシステムであり多くの開発現場で利用されています。このコースではGitの基本的な機能について学びます。Gitの特徴である分散型や環境ごとの利用方法、ブランチやマージなどのしくみを解説します。また各機能をVisual Studio Codeとコマンドラインの2通りの方法で実行する手順も紹介します。このコースを受講することで、Gitの基本とその使い方を学ぶことができるでしょう。
 
-## Branches
-The branches are structured to correspond to the videos in the course. The naming convention is `CHAPTER#_MOVIE#`. As an example, the branch named `02_03` corresponds to the second chapter and the third video in that chapter. 
-Some branches will have a beginning and an end state. These are marked with the letters `b` for "beginning" and `e` for "end". The `b` branch contains the code as it is at the beginning of the movie. The `e` branch contains the code as it is at the end of the movie. The `main` branch holds the final state of the code when in the course.
+##  インストール
 
-When switching from one exercise files branch to the next after making changes to the files, you may get a message like this:
+　これらの練習ファイルを使用するには、以下がインストールされている必要があります。
+　Git
+　Visual Studio Code
 
-    error: Your local changes to the following files would be overwritten by checkout:        [files]
-    Please commit your changes or stash them before you switch branches.
-    Aborting
+　[補足]GitHub Codespacesを使用する場合は上記インストールは必要ありません。
 
-To resolve this issue:
-	
-    Add changes to git using this command: git add .
-	Commit changes using this command: git commit -m "some message"
+　・手順
 
-## Installing
-1. To use these exercise files, you must have the following installed:
-	- [list of requirements for course]
-2. Clone this repository into your local machine using the terminal (Mac), CMD (Windows), or a GUI tool like SourceTree.
-3. [Course-specific instructions]
+　1.本リポジトリのフォークを作成します。
+　2.GitまたはVisual Studioを使用してリポジトリのCloneを行います
+　3.レッスンに合わせたブランチに切り替えることで動画と同様の作業を行うことができます。
 
+## リポジトリの使い方
+このリポジトリには必要に応じてブランチが設けられています。ブランチのポップアップメニューを使用して、使用するブランチに切り替えたあとにコースを視聴してください。またURLに`「/tree/ブランチ名」`を追加することで、アクセスしたいブランチに移動することも可能です。
+
+## ブランチ
+使用するブランチはコース内で指定されます。例えばch3_02という形式です。
+　各ブランチはレッスンの開始時の状態になっています。
+
+　ファイルに変更を加えた後、ある演習ファイルのブランチから次のブランチに切り替えると、次のようなメッセージが表示される場合があります。
+
+error: Your local changes to the following files would be overwritten by checkout:        [files]
+Please commit your changes or stash them before you switch branches.
+Aborting
+
+　この問題を解決するには:
+
+Add changes to git using this command: git add .
+Commit changes using this command: git commit -m "some message"
+
+ ## GitHub Codespacesについて
+プログラミング言語を学ぶ最良の方法は、実際にそれを使用することです。それがこのコースがGitHub Codespacesと統合されている理由です。GitHub Codespacesは、あなたが普段使っているIDEのすべての機能を提供するクラウド上の手軽な開発環境です。ローカルマシンのセットアップも必要ありません。 GitHub Codespacesを使えば、あなたが職場で使っている他のツールを使用しながら、どのパソコンからでもいつでもプログラミングの実践的な練習ができます。
+
+## インストラクター
+
+西村誠
+
+プログラマー、Microsoft MVP
+
+この講師の他のコースを視聴する：[LinkedInラーニング](https://www.linkedin.com/learning/instructors/13315091)
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
 

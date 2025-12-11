@@ -10,7 +10,8 @@ Gitはファイルの変更履歴を管理するためのバージョン管理�
 　これらの練習ファイルを使用するには、以下がインストールされている必要があります。
  
 　・Git
-　・Visual Studio Code
+　
+ ・Visual Studio Code
  
 　[補足]GitHub Codespacesを使用する場合は上記インストールは必要ありません。
 

@@ -12,7 +12,8 @@ Gitはファイルの変更履歴を管理するためのバージョン管理�
 　[補足]GitHub Codespacesを使用する場合は上記インストールは必要ありません。
  
 　git
-　Visual Studio Code
+　
+  Visual Studio Code
  
 　・手順
 

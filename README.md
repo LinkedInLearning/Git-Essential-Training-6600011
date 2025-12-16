@@ -1,7 +1,7 @@
 # Git 基本講座
 LinkedInラーニングの「Git 基本講座」コース用のリポジトリです。このコースは [LinkedInラーニング][lil-course-url]で視聴できます。
 
-![course-name-alt-text][https://media.licdn.com/dms/image/v2/D4E0DAQFh6lUr-eMZZQ/learning-public-crop_675_1200/B4EZsETBhpIQAY-/0/1765303655107?e=2147483647&v=beta&t=0UblsTD8o6G2vrvYHOa0qIPq0PjNhZsuYHFbXhs6vFg] 
+![Git 基本講座][lil-thumbnail-url] 
 
 Gitはファイルの変更履歴を管理するためのバージョン管理システムです。2025年現在もっとも主流なシステムであり多くの開発現場で利用されています。このコースではGitの基本的な機能について学びます。Gitの特徴である分散型や環境ごとの利用方法、ブランチやマージなどのしくみを解説します。また各機能をVisual Studio Codeとコマンドラインの2通りの方法で実行する手順も紹介します。このコースを受講することで、Gitの基本とその使い方を学ぶことができるでしょう。
 
@@ -52,6 +52,5 @@ Commit changes using this command: git commit -m "some message"
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
 
-[lil-course-url]: https://www.linkedin.com/learning/
-[lil-thumbnail-url]: https://media.licdn.com/dms/image/v2/D4E0DAQG0eDHsyOSqTA/learning-public-crop_675_1200/B4EZVdqqdwHUAY-/0/1741033220778?e=2147483647&v=beta&t=FxUDo6FA8W8CiFROwqfZKL_mzQhYx9loYLfjN-LNjgA
-
+[lil-course-url]: https://www.linkedin.com/learning/git-essential-training-27504181
+[lil-thumbnail-url]: https://media.licdn.com/dms/image/v2/D4E0DAQFh6lUr-eMZZQ/learning-public-crop_675_1200/B4EZsETBhpIQAY-/0/1765303655107?e=2147483647&v=beta&t=0UblsTD8o6G2vrvYHOa0qIPq0PjNhZsuYHFbXhs6vFg

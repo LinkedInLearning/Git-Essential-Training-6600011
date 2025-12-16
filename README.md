@@ -1,7 +1,7 @@
 # Git 基本講座
 LinkedInラーニングの「Git 基本講座」コース用のリポジトリです。このコースは [LinkedInラーニング][lil-course-url]で視聴できます。
 
-![course-name-alt-text][lil-thumbnail-url] 
+![course-name-alt-text][https://media.licdn.com/dms/image/v2/D4E0DAQFh6lUr-eMZZQ/learning-public-crop_675_1200/B4EZsETBhpIQAY-/0/1765303655107?e=2147483647&v=beta&t=0UblsTD8o6G2vrvYHOa0qIPq0PjNhZsuYHFbXhs6vFg] 
 
 Gitはファイルの変更履歴を管理するためのバージョン管理システムです。2025年現在もっとも主流なシステムであり多くの開発現場で利用されています。このコースではGitの基本的な機能について学びます。Gitの特徴である分散型や環境ごとの利用方法、ブランチやマージなどのしくみを解説します。また各機能をVisual Studio Codeとコマンドラインの2通りの方法で実行する手順も紹介します。このコースを受講することで、Gitの基本とその使い方を学ぶことができるでしょう。
 
